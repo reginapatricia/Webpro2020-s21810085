@@ -32,20 +32,20 @@ console.log(arr2.length);
 */
 
 
-/*
-method pada array
-1. length
-2.toString (mengubah array menjadi string)
+
+//method pada array
+//1. length
+//2.toString (mengubah array menjadi string)
 let mhs = ["john", "bob", "jane", "peter"];
 console.log(mhs.toString());
 
 //3. join
 
 console.log(mhs.join(" - "))
-*/
 
 
-/*
+
+
 //4. push, pop, unshift, shift
 // push untuk menambahkan element dibelakangnya
  
@@ -68,7 +68,7 @@ console.log(mhs.join (" - "));
 mhs.shift();
 console.log(mhs.join (" - "));
 
-*/
+
 
 /*
 5. concat
