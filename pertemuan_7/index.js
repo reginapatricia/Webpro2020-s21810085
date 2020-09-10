@@ -28,22 +28,22 @@ yang lebih sering dipake : for dan while
 // }
 
 //for of
-const buku = ["Harry Potter and the Goblet of Fire", 
-"Harry Potter and the Order of Phoenix", 
-"Harry Potter and the half-blood prince"
-];
+// const buku = ["Harry Potter and the Goblet of Fire", 
+// "Harry Potter and the Order of Phoenix", 
+// "Harry Potter and the half-blood prince"
+// ];
 
-for(x of buku){
-    console.log(x);
-}
+// for(x of buku){
+//     console.log(x);
+// }
 
-//while
-let i = 1;      
+// //while
+// let i = 1;      
 
-while (i<=10){              //kondisi benar dijalankan yang didalamnya
-    console.log(i);
-    i++;
-}
+// while (i<=10){              //kondisi benar dijalankan yang didalamnya
+//     console.log(i);
+//     i++;
+// }
 
 //do while
 
@@ -53,3 +53,58 @@ while (i<=10){              //kondisi benar dijalankan yang didalamnya
 //     console.log(i);
 //     i++
 // }while (i<=10);             //kondisinya ada diterakhir
+
+
+
+/*
+    conditional
+*/
+
+/*
+2 cara menulis perintah pada conditional
+1. if, else if, dan else
+2. switch dan case
+ */
+
+ //1. if, else, dan else if
+
+ let nilaiRegina = 96;
+
+ if(nilaiRegina >80){
+     console.log("SANGAT BAIK");
+ }
+ else if (nilaiRegina >= 60 && nilaiRegina<=80){
+     console.log("BAIK");
+ }
+ else{
+     console.log("JANGAN MENYERAH DAN COBA LAGI");
+ }
+
+
+ //2. switch dan case
+
+ let seragamSekolah;
+ let hari = "kamis";
+
+ switch (hari){
+    case "senin" :              //diperiksa casenya begitupun seterusnya
+         seragamSekolah = "kemeja putih bawahan abu-abu";
+         break;
+    case "selasa" : 
+         seragamSekolah ="kemeja putih bawahan abu-abu";
+         break;
+    case "rabu" :
+         seragamSekolah = "kemeja batik bawahan putih";
+         break;
+    case "kamis" :
+         seragamSekolah = "kemeja kokoh biru muda bawahan abu-abu";
+         break;
+    case "jumat" :
+         seragamSekolah = "baju pramuka";
+         break;
+    default :
+         seragamSekolah = "baju olahraga";
+ }
+ console.log(seragamSekolah);
+
+ 
