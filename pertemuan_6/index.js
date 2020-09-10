@@ -6,7 +6,7 @@
 // const mahasiswa1 = ['John', 'Doe', '31', 'true'];
 
 //1.object literals
-const mhs1={
+const mhs1={  //const lebih sering digunakan untuk object atau array
     namaDepan : "John",
     namaBelakang : "Doe",
     umur:31,
@@ -39,7 +39,7 @@ console.log(mhs1["namaBelakang"]);
 
 console.log(mhs1.alamat.jalan);
 console.log(mhs1.IPSemester[3]);  //menambahkan array dalam object
-console.log(mhs1.hitungIPK());
+console.log(mhs1.hitungIPK());  //nilai ipknya direturn total(nilainya dikembalikan)
 
 
 
