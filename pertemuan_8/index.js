@@ -3,14 +3,14 @@
 */
 
 const account = {
-    name: "Regina",
+    name: "Regina",  //properti nama nilai regina
     expenses: [],
 }
 
-const addExpenses = function (desctiprion, amount){
+const addExpenses = function (description, amount){
     account.expenses.push({
-        description : desctiprion,
-        amount : amount
+        description : description,
+        amount : amount  //object method (2 properti)
     });
 };
 
