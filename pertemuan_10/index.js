@@ -26,7 +26,7 @@
 
 // let i;
 // for (let i = 0; i < 10; i++){
-//     console.log(i);
+//     console.log(i);    //seperti contoh ini bisa diakses dari luar for
 // }
 // console.log(i);
 
