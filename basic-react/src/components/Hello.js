@@ -1,5 +1,5 @@
 import React from 'react';
-import {cekTahun, cekHari} from "../utils/waktu"
+import {cekTahun, cekHari} from "../utils/waktu";
 
 const Hello = ()=>{
     return(
